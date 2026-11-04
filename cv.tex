@@ -1,0 +1,156 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=1.35cm,bottom=1.15cm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{enumitem}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\setlength{\tabcolsep}{0pt}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{6pt}{4pt}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}p{3.2cm}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{S}{>{\raggedright\arraybackslash}p{4.8cm}}
+\newcolumntype{K}{>{\raggedright\arraybackslash}p{1.7cm}}
+\newcolumntype{R}{>{\raggedright\arraybackslash}p{4.3cm}}
+
+\setlist[itemize]{leftmargin=1.2em,itemsep=1pt,topsep=2pt,parsep=0pt,partopsep=0pt}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Kourosh Hasheminejad}}\\[4pt]
+    {\large Computational Materials Scientist | Multiscale Modelling | Soft Matter}\\[6pt]
+    Espoo, Finland \,|\,
+    \href{mailto:kourosh.hasheminejad@aalto.fi}{kourosh.hasheminejad@aalto.fi}\\[2pt]
+    \href{https://github.com/kourosh-h}{GitHub} \,|\,
+    \href{https://fi.linkedin.com/in/kourosh-hasheminejad-2577001aa/}{LinkedIn} \,|\,
+    \href{https://scholar.google.com/citations?user=Ey7-XMsAAAAJ&hl=en}{Google Scholar}
+\end{center}
+
+\section{Research Profile}
+Computational materials scientist with a D.Sc. from Aalto University, more than seven years of experience in molecular and mesoscale modelling. Expertise includes atomistic molecular dynamics, coarse-grained modelling, Python-based analysis, HPC workflow development, interfaces, nanocomposites, coatings, and structure--property relationships. Experienced in industry-linked research with Kemira and in connecting simulation-derived descriptors with experimental trends, and communication of computational results to researchers with different technical backgrounds. Interested in applying this expertise in customer-facing scientific collaborations and broader real-world materials applications.
+
+\section{Education}
+\begin{tabularx}{\linewidth}{@{}K Y@{}}
+2026 & \textbf{Doctor of Science (D.Sc.)}, Chemistry and Materials Science, Aalto University, Finland \\
+2019 & \textbf{Master of Science (M.Sc.)}, Materials Science and Engineering, K. N. Toosi University of Technology, Iran. Metallurgy-focused training including solidification and materials processing. \\
+2016 & \textbf{Bachelor of Science (B.Sc.)}, Materials Science and Engineering, Shahid Beheshti University, Iran. Metallurgy-focused training in metallic materials, heat treatment, mechanical properties, casting, and coatings. \\
+\end{tabularx}
+
+
+\section{Professional Experience}
+
+\textbf{Doctoral Researcher, Aalto University, Finland} \hfill \textbf{2021--2026}
+\begin{itemize}
+    \item Conducted multiscale molecular simulations, from atomistic molecular dynamics to mesoscale modelling, of thin films, coatings, nanocomposites, and interfacial systems.
+    \item Developed structure--property analyses connecting local interactions and interfacial organization with morphology, transport, adhesion, and material performance.
+    \item Carried out simulation tasks in industrially linked R\&D projects with \textbf{Kemira}, translating applied materials questions into computational models and connecting simulation trends with experimental observations.
+    \item Developed automated Python workflows for simulation setup, trajectory analysis, quantitative post-processing, and reproducible analysis of large materials datasets.
+    \item Built Bash- and Slurm-based workflows for running, chaining, and managing simulation campaigns on Aalto Triton and CSC HPC systems.
+    \item Worked across modelling and experimental perspectives, communicating simulation assumptions, validation limits, and physically meaningful descriptors to multidisciplinary collaborators.
+\end{itemize}
+
+\textbf{Research Assistant, Aalto University, Finland} \hfill \textbf{2020--2021}
+\begin{itemize}
+    \item Prepared molecular simulation systems, established computational workflows, and carried out pilot studies for materials and interface modelling projects.
+\end{itemize}
+
+
+\section{Metallurgy \& Materials Engineering Foundation}
+\begin{itemize}
+    \item Laboratory training in tensile testing, fracture testing, steel heat treatment, and aluminum casting during B.Sc. studies.
+    \item Coursework across B.Sc. and M.Sc. studies included solidification, metallic materials, heat treatment, mechanical behavior of materials, casting, and materials processing.
+    \item B.Sc. project: electrochemical deposition of nickel--alumina composite coatings on steel.
+    \item M.Sc. research: molecular modelling of polymer/graphene nanocomposites, including interface engineering and experimentally guided simulation of shape-memory behavior.
+\end{itemize}
+
+\section{Selected Research Contributions}
+\begin{itemize}
+    \item Developed experimentally guided atomistic simulations for PLA/graphene nanocomposites to study how interface engineering influences adhesion and shape-memory behavior.
+    \item Developed atomistic and mesoscale models for polymer coatings and self-assembling systems, linking molecular-scale interactions to morphology and water transport.
+    \item Built reusable analysis and HPC workflows for simulation campaigns, enabling systematic comparison across model parameters and material conditions.
+\end{itemize}
+
+
+\section{Technical Skills}
+\begin{tabularx}{\linewidth}{@{}S Y@{}}
+
+\textbf{Computational Materials Modelling} &
+Classical molecular dynamics (LAMMPS, GROMACS), coarse-grained and mesoscale modelling (DPD), multiscale simulation, structure--property analysis \\[2pt]
+
+\textbf{Metallurgy \& Structural Materials} &
+Solidification and heat-treatment fundamentals, metallic materials and processing, mechanical-property testing fundamentals, fracture and tensile testing laboratory experience, aluminum casting, metallic coatings \\[2pt]
+
+\textbf{Interfaces \& Materials Physics} &
+Polymer nanocomposites, coatings, surfaces and interfaces, adhesion, hydration, molecular transport, morphology, self-assembly, interfacial structure \\[2pt]
+
+\textbf{Data \& Automation} &
+Python (NumPy, Pandas, scikit-learn, Matplotlib, MDAnalysis), Bash scripting, automated trajectory analysis, large-scale dataset post-processing \\[2pt]
+
+\textbf{Scientific Computing} &
+Linux/Unix, HPC environments (Slurm, Aalto Triton, CSC), Git/GitHub, Jupyter Notebooks, reproducible computational workflows \\[2pt]
+
+\textbf{Visualization \& Analysis} &
+OVITO, VMD, molecular trajectory analysis, density and morphology analysis, interface and transport descriptors \\[2pt]
+
+\textbf{Emerging Methods} &
+Machine learning for materials, basic quantum chemistry (ORCA, PSI4), initial experience with machine-learning interatomic potentials (MACE) \\
+
+\end{tabularx}
+
+
+\section{Teaching, Training \& Scientific Service}
+\begin{tabularx}{\linewidth}{@{}R Y@{}}
+\textbf{Supervision} & Advised 5 B.Sc. theses and undergraduate research projects at Aalto University. \\[2pt]
+\textbf{Teaching} & Content Developer and Teaching Assistant for \textit{Soft Materials Modelling}, \textit{Computational Chemistry I}, and \textit{Personal Research Assignment} at Aalto University. \\[2pt]
+\textbf{Training Materials} & Developed self-contained Jupyter Notebook exercises for teaching computational methods through clear instructions, reproducible environments, and ready-to-run workflows. \\[2pt]
+\textbf{Community Building} & Founder and Lead of the \textit{Modeller's Council} (2022--2025), a bi-weekly forum for software demos, paper discussions, and simulation troubleshooting. \\[2pt]
+\textbf{Peer Review} & Reviewer for the \textit{Journal of Colloid and Interface Science} (2024). \\[2pt]
+\textbf{Pedagogical Training} & Aalto University pedagogical training: \textit{Teaching Assistant as a Learning Instructor} (2024). \\
+\end{tabularx}
+
+\section{Publications}
+\textbf{7 peer-reviewed publications}, including \textbf{4 as first author}; \textbf{1 submitted first-author manuscript}; \textbf{148 citations}; \textbf{h-index 6}.
+\vspace{0.3em}
+
+\small
+\begin{tabularx}{\linewidth}{@{}K Y@{}}
+2026 & \textbf{Hasheminejad, K.}; Tolmachev, D.; Sammalkorpi, M. Hydration-enhanced chain length effects in short alkyl chain self-assembled monolayers on silica. Submitted to \textit{Journal of Colloid and Interface Science}. \\
+2025 & \textbf{Hasheminejad, K.}; et al. Molecular level dependencies of water permeability in di-block copolymer assemblies. \textit{Computational Materials Science} \textbf{258}, 114046. \\
+2023 & \textbf{Hasheminejad, K.}; et al. Cracking polymer coatings of paper-like surfaces: Control via block co-polymer structure and system composition. \textit{Applied Surface Science} \textbf{640}, 158324. \\
+2023 & Scacchi, A.; \textbf{Hasheminejad, K.}; et al. Controlling self-assembling co-polymer coatings via co-polymer block length ratio. \textit{Journal of Colloid and Interface Science} \textbf{640}, 809--819. \\
+2022 & Amini, M.; \textbf{Hasheminejad, K.}; et al. Engineering the shape memory parameters of graphene/polymer nanocomposites. \textit{Smart Materials and Structures} \textbf{31}, 025010. \\
+2021 & \textbf{Hasheminejad, K.}; et al. Tailoring adhesion characteristics of PLA/graphene nanocomposites by end-grafted polymer chains. \textit{European Polymer Journal} \textbf{148}, 110351. \\
+2020 & Amini, M.; \textbf{Hasheminejad, K.}; et al. Experimentally guided MD simulation to enhance the shape memory behavior of polymer-based nanocomposites. \textit{Composites Part A} \textbf{138}, 106055. \\
+2020 & \textbf{Hasheminejad, K.}; et al. Enhanced interfacial characteristics in PLA/graphene composites through numerically-designed interface treatment. \textit{Applied Surface Science} \textbf{502}, 144150. \\
+\end{tabularx}
+\normalsize
+
+\section{Conference \& Workshop Presentations}
+Participated in \textbf{6} conferences and workshops, delivering \textbf{4 oral presentations} and \textbf{2 posters} on computational materials science, soft matter, and polymer systems.
+\vspace{0.3em}
+
+\small
+\begin{tabularx}{\linewidth}{@{}K Y@{}}
+2024 & \textbf{European Colloid and Interface Society (ECIS)}, Copenhagen, Denmark. \textbf{Oral presentation:} \textit{Self-assembling layered polymeric coatings: A dissipative particle dynamics study}. \\
+2024 & \textbf{Nordic Polymer Days}, Helsinki, Finland. \textbf{Oral presentation:} \textit{Dissipative particle dynamics simulations of self-assembling layered polymer coatings}. \\
+2024 & \textbf{Computational Chemistry Days}, Jyväskylä, Finland. \textbf{Oral presentation:} \textit{A computational take on designing self-assembling block copolymer films}. \\
+2024 & \textbf{Chemistry Days Young Researcher Symposium (KP2024-YRS)}, Helsinki, Finland. \textbf{Poster presentation:} \textit{Designing self-assembling polymeric films by dissipative particle dynamics simulations}. \\
+2023 & \textbf{Challenges in the Physics of Active and Biological Matter Workshop}, Espoo, Finland. \textbf{Poster presentation:} \textit{Mesoscale modelling of self-assembling polymeric coatings}. \\
+2022 & \textbf{GRK2516 Workshop, Controlling Structure Formation in Soft Materials}, Mainz, Germany. \textbf{Oral presentation:} \textit{Computational design of self-assembling polymeric coatings}. \\
+\end{tabularx}
+\normalsize
+
+\end{document}
